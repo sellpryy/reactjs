@@ -1,0 +1,52 @@
+/* FormInput.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-field {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.input-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.input-list-item {
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input-list-item:hover {
+    background-color: #f0f0f0;
+}
+.formBm{
+    background-color: aqua;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+.tarifBF{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
